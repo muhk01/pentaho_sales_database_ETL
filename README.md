@@ -11,10 +11,10 @@ This line specifies the schedule at which the Pentaho job will run, the location
 
 The five asterisks in the beginning of the line specify the time and date parameters of the schedule. Here's what each of the asterisks represents, in order:
 
-`* * * * *
-| | | | |
-| | | | ----- Day of week (0 - 7) (Sunday is both 0 and 7)
-| | | ------- Month (1 - 12)
-| | --------- Day of month (1 - 31)
-| ----------- Hour (0 - 23)
-------------- Minute (0 - 59)`
+`* * * * *`
+`| | | | |`
+`| | | | ----- Day of week (0 - 7) (Sunday is both 0 and 7)`
+`| | | ------- Month (1 - 12)`
+`| | --------- Day of month (1 - 31)`
+`| ----------- Hour (0 - 23)`
+`------------- Minute (0 - 59)`
